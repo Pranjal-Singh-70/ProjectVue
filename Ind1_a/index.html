@@ -13,6 +13,10 @@
         <h1>template inside vue app</h1> 
          <!-- wont work template have higher priority -->
         <p>{{title}}</p>
+        <button v-on:click="title = 'T_Vue_Js'">Revert</button>
+        <button @click="title = 'Changed'">Change2</button>
+        <button @click="changed">Method</button>
+        <button @click="changed2('parameter')">Method2</button>
     </div>
     <script src="app.js"></script>
 </body>

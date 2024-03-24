@@ -4,6 +4,14 @@ const app = Vue.createApp({
         return{
             title:'T_Vue_JS'
         }
+    },
+    methods:{
+        changed(){
+            this.title = 'Changed via method'
+        },
+        changed2(name){
+            this.title = name
+        }
     }
 })
 
