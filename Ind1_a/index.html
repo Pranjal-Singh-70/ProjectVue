@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <h1> Vue will not work here !!!</h1>
+
+    <div id="app">
+        <h1>template inside vue app</h1> 
+         <!-- wont work template have higher priority -->
+        <p>{{title}}</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
